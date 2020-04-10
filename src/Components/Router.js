@@ -16,11 +16,24 @@ export default () => (
     <>
       <Header />
       <Switch>
-        <Route path="/" exact component={Home} />
-        <Route path="/tv" component={TV} />
-        <Route path="/search" component={Search} />
-        <Route path="/movie/:id" component={Detail} />
-        <Route path="/show/:id" component={Detail} />
+        <Route
+          path="https://jpumki.github.io/Netflix/"
+          exact
+          component={Home}
+        />
+        <Route path="https://jpumki.github.io/Netflix/tv" component={TV} />
+        <Route
+          path="https://jpumki.github.io/Netflix/search"
+          component={Search}
+        />
+        <Route
+          path="https://jpumki.github.io/Netflix/movie/:id"
+          component={Detail}
+        />
+        <Route
+          path="https://jpumki.github.io/Netflix/show/:id"
+          component={Detail}
+        />
         <Redirect from="*" to="/" />
       </Switch>
     </>
