@@ -68,7 +68,7 @@ const HomePresenter = ({ nowPlaying, popular, upcoming, loading, error }) => (
 
 HomePresenter.propTypes = {
   nowPlaying: PropTypes.array,
-  upComing: PropTypes.array,
+  upcoming: PropTypes.array,
   popular: PropTypes.array,
   loading: PropTypes.bool.isRequired,
   error: PropTypes.string,
